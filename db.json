@@ -1,0 +1,122 @@
+{
+  "sign-in": {
+    "data": {
+        "code": 0,
+        "authorization": true,
+        "message": "Hubo un error al recuperar los datos del usuario."
+    },
+    "status": 200
+},
+  "balance": {
+    "amountBalance": {
+      "specialCase": {
+        "special": false,
+        "message": ""
+      },
+      "reclaim": {
+        "haveReclaim": true,
+        "amount": 100
+      },
+      "emitDate": "23/06/2022",
+      "expiredDate": "11/07/2022",
+      "invoiceNro": 91376811,
+      "productNro": 110091,
+      "address": "I CARRERA PINTO 1308",
+      "balance": [
+        {
+          "_title": "Saldo total",
+          "_amount": 475975,
+          "_type": "total_boleta",
+          "_otherAmount": [
+            {
+              "_title": "Saldo actual",
+              "_amount": 475975
+            },
+            {
+              "_title": "Saldo anterior",
+              "_amount": 474651
+            }
+          ]
+        },
+        {
+          "_title": "Saldo anterior",
+          "_amount": 474651,
+          "_type": "saldo_anterior"
+        },
+        {
+          "_title": "Tercer saldo",
+          "_amount": 250555,
+          "_type": "tercer_saldo"
+        }
+      ]
+    }
+  },
+  "profile": {
+    "userProfile": {
+      "customerId": 100520360,
+      "fullName": "ANGEL DIAZ FREITEZ",
+      "firstName": "ANGEL",
+      "lastName": "DIAZ FREITEZ",
+      "address": "LOS PLATANOS 123",
+      "customerType": "PERSONA",
+      "phone": "988776655",
+      "rut": "16339638-6",
+      "email": "angel.diaz@nuwit.com",
+      "commune": "VALPARAÍSO",
+      "isCompany": false,
+      "userType": "1",
+      "products": [
+        {
+          "roleType": "1-USUARIO WEB",
+          "productNumber": 110090,
+          "contractNumber": 110090,
+          "address": "J MONTT 1435, SANTIAGO",
+          "state": "1-Activo",
+          "personalized": 0,
+          "productName": 110090,
+          "selected": true
+        },
+        {
+          "roleType": "1-USUARIO WEB",
+          "productNumber": 110091,
+          "contractNumber": 110091,
+          "address": "J MONTT 1436",
+          "state": "1-Activo",
+          "personalized": 0,
+          "productName": 110091,
+          "selected": false
+        },
+        {
+          "roleType": "1-USUARIO WEB",
+          "productNumber": 110092,
+          "contractNumber": 110092,
+          "address": "J MONTT 1437",
+          "state": "1-Activo",
+          "personalized": 0,
+          "productName": 110092,
+          "selected": false
+        },
+        {
+          "roleType": "1-USUARIO WEB",
+          "productNumber": 110093,
+          "contractNumber": 110093,
+          "address": "J MONTT 1438",
+          "state": "1-Activo",
+          "personalized": 0,
+          "productName": 110093,
+          "selected": false
+        },
+        {
+          "roleType": "1-USUARIO WEB",
+          "productNumber": 110094,
+          "contractNumber": 110094,
+          "address": "J MONTT 1439",
+          "state": "1-Activo",
+          "personalized": 0,
+          "productName": 110094,
+          "selected": false
+        }
+      ]
+    }
+  }
+}
